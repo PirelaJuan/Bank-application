@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="bank.management.WithdrawPage">
+  <grid id="27dc6" binding="withdrawPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="595" height="589"/>
+    </constraints>
+    <properties>
+      <background color="-724755"/>
+      <foreground color="-724755"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="3b48b" layout-manager="FormLayout">
+        <rowspec value="center:d:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:d:grow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:d:grow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-724755"/>
+          <foreground color="-724755"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="69734" class="javax.swing.JButton" binding="signOffButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="94" height="31"/>
+              </grid>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <focusable value="false"/>
+              <font name="Arial" size="11" style="0"/>
+              <foreground color="-12828863"/>
+              <icon value="images/remove (1).png"/>
+              <text value="Sign off"/>
+            </properties>
+          </component>
+          <grid id="6aa26" binding="enterAmountPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="10" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="82bde" class="javax.swing.JLabel" binding="enterLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="20" style="0"/>
+                  <foreground color="-12828863"/>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="11"/>
+                  <text value="Enter amount"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="536c4" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="25" bottom="0" right="25"/>
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="2335e" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="Arial" size="14" style="0"/>
+                  <foreground color="-12828863"/>
+                  <text value="Cancel"/>
+                </properties>
+              </component>
+              <component id="68225" class="javax.swing.JButton" binding="withdrawButton1" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="Arial" size="14" style="0"/>
+                  <foreground color="-12828863"/>
+                  <text value="Withdraw"/>
+                </properties>
+              </component>
+              <vspacer id="274">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="57166" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=" "/>
+                </properties>
+              </component>
+              <component id="d17c7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=" "/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="280b" binding="infoPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="10" bottom="0" right="0"/>
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="73bb1" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="12" style="0"/>
+                  <foreground color="-12828863"/>
+                  <text value="Withdraw From"/>
+                </properties>
+              </component>
+              <hspacer id="ea044">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="a7629" class="javax.swing.JLabel" binding="nameLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="14" style="0"/>
+                  <foreground color="-14540254"/>
+                  <text value="Juan Checking..."/>
+                </properties>
+              </component>
+              <component id="b9338" class="javax.swing.JLabel" binding="amountLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="12" style="0"/>
+                  <foreground color="-12828863"/>
+                  <text value="Available balance $101010"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="abcde" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="10" bottom="15" right="10"/>
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <background color="-657931"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="b1432" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="50" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-724755"/>
+                  <opaque value="true"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <vspacer id="5bcbe">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="576a6" class="javax.swing.JTextField" binding="amountTextField">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <dragEnabled value="false"/>
+                      <font name="Arial" size="20" style="0"/>
+                      <foreground color="-12828863"/>
+                      <horizontalAlignment value="0"/>
+                      <opaque value="false"/>
+                    </properties>
+                  </component>
+                  <component id="5042b" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Arial" size="20" style="0"/>
+                      <foreground color="-12828863"/>
+                      <text value="$"/>
+                    </properties>
+                  </component>
+                  <vspacer id="5ce45">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="a2bc5" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=" "/>
+                    </properties>
+                  </component>
+                  <component id="950b0" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=" "/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <vspacer id="97133">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-vert="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <toolbar id="ef080" binding="toolBar">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <floatable value="true"/>
+          <visible value="true"/>
+        </properties>
+        <border type="empty">
+          <title-color color="-4473925"/>
+        </border>
+        <children>
+          <hspacer id="78116">
+            <constraints/>
+          </hspacer>
+          <component id="2d814" class="javax.swing.JButton" binding="accountsButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1644826"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <focusable value="false"/>
+              <font name="Arial" size="10" style="0"/>
+              <foreground color="-14540254"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="images/bank (1).png"/>
+              <iconTextGap value="4"/>
+              <maximumSize width="82" height="51"/>
+              <opaque value="false"/>
+              <text value="Accounts"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+          <vspacer id="163e5">
+            <constraints/>
+          </vspacer>
+          <component id="2b8e9" class="javax.swing.JButton" binding="depositButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1644826"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <focusable value="false"/>
+              <font name="Arial" size="10" style="0"/>
+              <foreground color="-14540254"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="images/deposit (7).png"/>
+              <iconTextGap value="-2"/>
+              <inheritsPopupMenu value="false"/>
+              <maximumSize width="82" height="51"/>
+              <opaque value="false"/>
+              <text value="Deposit"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+          <vspacer id="92759">
+            <constraints/>
+          </vspacer>
+          <component id="b654" class="javax.swing.JButton" binding="withdrawButton">
+            <constraints/>
+            <properties>
+              <background color="-1644826"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <focusable value="false"/>
+              <font name="Arial" size="10" style="0"/>
+              <foreground color="-14540254"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="images/cash-withdrawal.png"/>
+              <iconTextGap value="-1"/>
+              <opaque value="true"/>
+              <text value="Withdraw"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+          <hspacer id="f8469">
+            <constraints/>
+          </hspacer>
+        </children>
+      </toolbar>
+    </children>
+  </grid>
+</form>

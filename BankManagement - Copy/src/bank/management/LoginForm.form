@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="bank.management.LoginForm">
+  <grid id="27dc6" binding="loginPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="492" height="475"/>
+    </constraints>
+    <properties>
+      <background color="-724755"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="32619" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+        <margin top="0" left="0" bottom="0" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="140" height="90"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5579415"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ebbf8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="140" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <alignmentX value="0.0"/>
+              <font name="Arial" size="16" style="1"/>
+              <foreground color="-12828863"/>
+              <horizontalAlignment value="0"/>
+              <text value="Sign in"/>
+            </properties>
+          </component>
+          <component id="9871e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="140" height="14"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial" size="12" style="1"/>
+              <foreground color="-12828863"/>
+              <horizontalAlignment value="0"/>
+              <text value="  to your Bank account"/>
+            </properties>
+          </component>
+          <vspacer id="731c7">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="140" height="14"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="9c98c">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="140" height="14"/>
+              </grid>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <hspacer id="ccb0c">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <grid id="9278e" layout-manager="GridLayoutManager" row-count="10" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-724755"/>
+          <font size="20"/>
+          <foreground color="-16250872"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="627a6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <foreground color="-12828863"/>
+              <text value="Username"/>
+            </properties>
+          </component>
+          <component id="752c4" class="javax.swing.JButton" binding="signInButton">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5579415"/>
+              <font size="16"/>
+              <foreground color="-12828863"/>
+              <text value="Sign in"/>
+            </properties>
+          </component>
+          <component id="5f77d" class="javax.swing.JTextField" binding="tfUsername">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial" size="12" style="1"/>
+              <foreground color="-12828863"/>
+              <opaque value="false"/>
+            </properties>
+          </component>
+          <vspacer id="327f">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="37f60">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="f7751" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <foreground color="-12828863"/>
+              <text value="Password"/>
+            </properties>
+          </component>
+          <component id="78ce1" class="javax.swing.JPasswordField" binding="pfPassword">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial" size="12" style="1"/>
+              <foreground color="-12828863"/>
+              <opaque value="false"/>
+            </properties>
+          </component>
+          <vspacer id="e8253">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="c72bd" class="javax.swing.JLabel" binding="messageLabel">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="12" style="0"/>
+              <foreground color="-12828863"/>
+              <text value="Don't have an account? "/>
+            </properties>
+          </component>
+          <component id="6bdf7" class="javax.swing.JLabel" binding="signUpLabel">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Arial" size="12" style="1"/>
+              <foreground color="-16746082"/>
+              <text value="Sign up"/>
+            </properties>
+          </component>
+          <component id="1b0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=" "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
